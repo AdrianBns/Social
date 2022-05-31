@@ -1,0 +1,90 @@
+{
+  "personas": [
+    {
+      "id": 1,
+      "nombre": "Adrián",
+      "apellidos": [
+        "Bueno",
+        "Sosa"
+      ],
+      "edad": 29,
+      "apodo": "",
+      "imagen": "../assets/Barragan.jpg",
+      "imagenFondo": "../assets/3000.jpg",
+      "email": "adrian@redsocial.com",
+      "amigos": [],
+      "mensajes": [
+        {
+          "body": "¡Que Diógenes ni que niño muerto!",
+          "author": 1,
+          "date": "30/5/2022"
+        },
+        {
+          "body": "¡A vé si sale Torrente 6 y me llevo argo a la boca!",
+          "author": 1,
+          "date": "30/5/2022"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Rafi",
+      "apellidos": [
+        "",
+        ""
+      ],
+      "edad": 36,
+      "apodo": "",
+      "imagen": "../assets/rafi.jpg",
+      "imagenFondo": "../assets/3000.jpg",
+      "email": "rafi@redsocial.com",
+      "amigos": [],
+      "mensajes": []
+    },
+    {
+      "id": 3,
+      "nombre": "Cañita",
+      "apellidos": [
+        "Brava",
+        ""
+      ],
+      "edad": 52,
+      "apodo": "",
+      "imagen": "../assets/cañita.jpg",
+      "imagenFondo": "../assets/3000.jpg",
+      "email": "seimipesetadewhisky@redsocial.com",
+      "amigos": [],
+      "mensajes": []
+    },
+    {
+      "id": 4,
+      "nombre": "Cuco",
+      "apellidos": [
+        "",
+        ""
+      ],
+      "edad": 28,
+      "apodo": "",
+      "imagen": "../assets/cuco.jpg",
+      "imagenFondo": "../assets/3000.jpg",
+      "email": "sinmariconadas@redsocial.com",
+      "amigos": [],
+      "mensajes": []
+    },
+    {
+      "id": 5,
+      "nombre": "Risitas",
+      "apellidos": [
+        "",
+        ""
+      ],
+      "edad": 36,
+      "apodo": "",
+      "imagen": "../assets/risitas.jpg",
+      "imagenFondo": "../assets/3000.jpg",
+      "email": "rafi@redsocial.com",
+      "amigos": [],
+      "mensajes": []
+    }
+  ]
+}

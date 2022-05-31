@@ -1,0 +1,8 @@
+Pagina usuario
+<app-user-profile [persona]="persona"></app-user-profile>
+<app-user-board class="user-board" [persona]="persona"(emitUserMsg)="sendUserMessage($event)" ></app-user-board>
+<div class="user-msg-board">
+  <h2>Tablón de publicaciones</h2>
+  <h4>{{persona.nombre}} {{persona.apellidos[0]}} {{persona.apellidos[1]}}</h4>
+</div>
+<app-user-messages-board class="msg-board" *ngFor = "let mensajes of persona.mensajes; index as i" [i]="i" [persona]="persona"></app-user-messages-board>
