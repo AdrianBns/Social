@@ -1,0 +1,22 @@
+.navBar{
+  margin-left: 6.9%;
+  margin-right: 6.9%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1%;
+  a{
+    border: 0px 1px 1px 1px solid black;
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px 5px 2px 0px black;
+
+
+  }
+
+}
+@media (max-width: 630px){
+
+ .navBar{
+   font-size: 0.8em;
+ }
+}

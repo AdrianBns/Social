@@ -1,3 +1,4 @@
+import { FriendListComponent } from './components/friend-list/friend-list.component';
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -11,6 +12,7 @@ import { UserServiceService } from './user-page/user-service.service';
 import { UserBoardComponent } from './components/user-board/user-board.component';
 import { UserMessagesBoardComponent } from './components/user-messages-board/user-messages-board.component';
 import { UserFriendsComponent } from './components/user-friends/user-friends.component';
+import { AppNavBarComponent } from './app-nav-bar/app-nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { UserFriendsComponent } from './components/user-friends/user-friends.com
     UserPageComponent,
     UserBoardComponent,
     UserMessagesBoardComponent,
-    UserFriendsComponent
+    UserFriendsComponent,
+    AppNavBarComponent,
+    FriendListComponent
   ],
   imports: [
    BrowserModule,

@@ -1,0 +1,14 @@
+<div class="text">
+    <p>Mis coleguillas</p>
+</div>
+<div class="container">
+    <div class="coleguillasCard" *ngFor = "let amigo of persona.amigos">
+        <div class="imagen">
+            <img src="{{amigo.imagen}}" alt="cañita">
+        </div>
+        <div class="infoCard">
+            <p>{{amigo.nombre}}</p>
+            <button>Borrar</button>
+        </div>
+    </div>
+</div>
