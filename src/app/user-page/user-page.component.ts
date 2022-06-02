@@ -12,15 +12,25 @@ import { Persona } from 'src/shared/user.model';
 export class UserPageComponent implements OnInit {
 
   persona: Persona = new Persona();
-  amigo: Persona = new Persona();
+  personaPerfil: Persona = new Persona();
+  datoUsuario: Persona;
+  key: string = 'usuario';
 
   constructor(private userService: UserServiceService) {
+     this.persona = JSON.parse(localStorage.getItem(this.key)!);
+
+
+
 
 
     }
 
   ngOnInit(): void {
-    this.loadUser(1);
+
+
+
+
+
 
   }
 
@@ -36,8 +46,5 @@ export class UserPageComponent implements OnInit {
       .subscribe(data => this.loadUser(data.id));
   }
 
-  makefriends(){
-    this.loadUser(1);
-    this.userService.makeFriends(this.persona);
-  }
+
 }

@@ -1,0 +1,13 @@
+<div class="elements" >
+
+  <div class="card" *ngFor="let noamigo of notFriends">
+    <div class="imagen">
+      <img src="{{noamigo.imagen}} "alt="">
+    </div>
+    <div class="info">
+      <p>{{noamigo.nombre}}</p>
+      <button>Añadir amigo</button>
+    </div>
+  </div>
+
+</div>

@@ -34,12 +34,16 @@ export class UserServiceService {
     return this.http.put<Persona>(url, persona, httpOptions)
    }
 
-   makeFriends(persona: Persona): void {
-    this.getUser(persona.id)
-      .subscribe(data => {
-        console.log(data)
-      })
-   }
+   makeFriends(id:number, idamigo:number): void {
+        let personaje: Persona = new Persona ();
+        this.getUser(id).subscribe(data => {
+          this.getUser(idamigo).subscribe(amigo => {
+            data.amigos.push(amigo);
+          })
+        })
+
+    }
+
 
 
    deleteFriends(persona: Persona, id:number){

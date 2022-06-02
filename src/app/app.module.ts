@@ -13,6 +13,7 @@ import { UserBoardComponent } from './components/user-board/user-board.component
 import { UserMessagesBoardComponent } from './components/user-messages-board/user-messages-board.component';
 import { UserFriendsComponent } from './components/user-friends/user-friends.component';
 import { AppNavBarComponent } from './app-nav-bar/app-nav-bar.component';
+import { FriendsviewComponent } from './components/friendsview/friendsview.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AppNavBarComponent } from './app-nav-bar/app-nav-bar.component';
     UserMessagesBoardComponent,
     UserFriendsComponent,
     AppNavBarComponent,
-    FriendListComponent
+    FriendListComponent,
+    FriendsviewComponent
   ],
   imports: [
    BrowserModule,
